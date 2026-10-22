@@ -1,6 +1,6 @@
 <img src="assets/profile-banner.svg" alt="John Snow · Systems programming and high-performance networking" width="100%" />
 
-**陈科年 · John Snow** &nbsp; / &nbsp; 中山大学 · 软件工程本科在读
+**kenianchen · John Snow** &nbsp; / &nbsp; 中山大学 · 软件工程本科在读
 
 专注 **C/C++、高性能网络与异步 I/O**，通过项目探索协议栈、并发与底层系统设计。
 

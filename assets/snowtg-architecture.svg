@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="404" viewBox="0 0 720 404" role="img" aria-labelledby="title desc">
+  <title id="title">SnowTG 分层架构</title>
+  <desc id="desc">场景配置驱动流量调度和应用协议，应用通过 owner-local 接口使用用户态 TCP/IP 协议栈，DPDK 与 RSS 提供多核网卡收发。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto-start-reverse"><path d="M0 0L6 3.5L0 7" fill="#547f98"/></marker>
+  </defs>
+  <rect width="720" height="404" rx="12" fill="#f2f7fa"/>
+  <g fill="none" stroke="#547f98" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M360 87V113"/>
+    <path d="M360 180V206" marker-start="url(#arrow)"/>
+    <path d="M360 273V299" marker-start="url(#arrow)"/>
+  </g>
+  <g stroke="#bfd3df" fill="#fff">
+    <rect x="96" y="22" width="528" height="64" rx="6"/>
+    <rect x="96" y="115" width="528" height="64" rx="6"/>
+    <rect x="96" y="208" width="528" height="64" rx="6" fill="#e4eff5" stroke="#77a2bb"/>
+    <rect x="96" y="301" width="528" height="64" rx="6"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <g fill="#17364b" font-size="21" font-weight="600">
+      <text x="360" y="49">场景与负载配置</text>
+      <text x="360" y="142">流量调度与应用协议</text>
+      <text x="360" y="235">用户态 TCP/IP 协议栈</text>
+      <text x="360" y="328">DPDK 与网卡</text>
+    </g>
+    <g fill="#41667c" font-size="17">
+      <text x="360" y="72">JSON / Python / Lua</text>
+      <text x="360" y="165">HTTP / DNS / Redis</text>
+      <text x="360" y="258">per-core reactor · 单 owner · owner-local 接口</text>
+      <text x="360" y="351">RSS 分流 · 多核 RX/TX</text>
+    </g>
+    <text x="360" y="389" font-size="13" fill="#547184">SnowTG · 分层概览</text>
+  </g>
+</svg>

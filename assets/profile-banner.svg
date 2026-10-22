@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">John Snow</title>
+  <desc id="desc">Systems programming and high-performance networking, with a blue network topology illustration.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#c6dbe7"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="260" rx="14" fill="#f2f7fa"/>
+  <path d="M0 244H1200" stroke="#c6dbe7"/>
+  <rect x="704" y="0" width="496" height="244" fill="url(#grid)"/>
+  <rect x="44" y="52" width="5" height="124" rx="2.5" fill="#2c6e8a"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="72" y="111" font-size="58" font-weight="650" letter-spacing="-2" fill="#17364b">John Snow</text>
+    <text x="75" y="152" font-size="21" fill="#365d73">Systems programming</text>
+    <text x="75" y="184" font-size="21" fill="#365d73">High-performance networking</text>
+    <text x="75" y="225" font-size="14" fill="#547184">github.com/john2-ui</text>
+  </g>
+  <g stroke="#87afc5" stroke-width="2" fill="none">
+    <path d="M760 130H852M852 130L940 55M852 130L940 205M852 130H1046M1046 130L1116 70M1046 130L1116 190"/>
+    <path d="M760 130L852 55H940M760 130L852 205H940" stroke="#c0d6e2"/>
+    <circle cx="852" cy="130" r="31" fill="#f2f7fa"/>
+    <circle cx="852" cy="130" r="23" stroke="#2c6e8a"/>
+    <circle cx="1046" cy="130" r="17" fill="#f2f7fa"/>
+    <circle cx="940" cy="55" r="10" fill="#f2f7fa"/>
+    <circle cx="940" cy="205" r="10" fill="#f2f7fa"/>
+    <circle cx="760" cy="130" r="10" fill="#f2f7fa"/>
+    <circle cx="1116" cy="70" r="7" fill="#f2f7fa"/>
+    <circle cx="1116" cy="190" r="7" fill="#f2f7fa"/>
+  </g>
+  <g fill="#2c6e8a">
+    <circle cx="852" cy="130" r="5"/>
+    <circle cx="1046" cy="130" r="4"/>
+    <rect x="978" y="126" width="16" height="8" rx="4"/>
+    <rect x="796" y="126" width="12" height="8" rx="4"/>
+  </g>
+</svg>
